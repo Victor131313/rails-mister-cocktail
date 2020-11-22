@@ -1,4 +1,5 @@
 
+
 <div class="text-center">
 <div class="col-12">
 <h1>cocktails</h1>
@@ -6,9 +7,8 @@
 <%= link_to cocktail.name, cocktail_path(cocktail) %>
 
 
-
-<%= link_to "new dose",new_cocktail_dose_path(cocktail), class:"btn btn-danger"  %>
 <% end %>
+<%= link_to "new dose",new_cocktail_dose_path(cocktail), class:"btn btn-danger"  %>
 <%= link_to "add", new_cocktail_path, class:"btn btn-primary"  %>
 </div>
 </div>
